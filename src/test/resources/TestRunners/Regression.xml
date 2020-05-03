@@ -3,11 +3,7 @@
 
 <suite name="Hubspot App Regression Test Suite">
 
-		<listeners>
-			<listener class-name="com.qa.hubspot.Listeners.PDFListener" />
-			<listener class-name="com.qa.hubspot.Listeners.ExtentReportListener" />
-			</listeners>
-
+		
 
 			<test name="Regression Functional Test" verbose="2">
 
